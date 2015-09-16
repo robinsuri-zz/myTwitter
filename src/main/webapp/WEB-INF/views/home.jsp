@@ -6,8 +6,12 @@
         <title>Home</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <p>This is the homepage!</p>
+            <form action="/views/process.jsp">
+            <input type="text" name="uname" value="Name..." onclick="this.value=''"/><br/>
+            <input type="text" name="uemail"  value="Email ID..." onclick="this.value=''"/><br/>
+            <input type="password" name="upass"  value="Password..." onclick="this.value=''"/><br/>
+            <input type="submit" value="register"/>
+            </form>
 
 </body>
 </html>
